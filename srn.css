@@ -1,0 +1,26 @@
+/* CSS declarations go here */
+.container {
+    background-color: black;
+    opacity: 0.5;
+    padding: 50px;
+    min-height: 350px;
+}
+
+#playlist {
+    max-height: 127px;
+    overflow: hidden;
+}
+
+#loading {
+    margin-top:10px;
+    color:black;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+#offset {
+    margin-top:10px;
+    color: white;
+    min-height: 150px;
+    overflow: hidden;
+}
