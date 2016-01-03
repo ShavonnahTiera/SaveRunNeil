@@ -12,7 +12,7 @@ let milesDriven = HTTP.call( 'GET', '/dec/v1/', {}, function( error, response ) 
 });
 
 
-let busRides = HTTP.call( 'POST', '/content/v1/commerce/getUserPurchases/msisdn:XXX', {
+let busRides = HTTP.call( 'POST', 'http://mafalda.hack.att.io:3000/content/v1/commerce/getUserPurchases/9479432560', {
 			  params: {
 			    "major": 276
 			  }
